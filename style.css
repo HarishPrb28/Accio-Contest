@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Cormorant:wght@600&family=Lato:wght@400;700&family=Poppins&family=Roboto:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background: #1e1e1e;
+  height: max-content;
+  display: flex;
+}
+
+.Container {
+  background: #262626;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.left_Container {
+  position: fixed;
+  text-align: center;
+  width: 20%;
+  padding-top: 56px;
+  height: 87vh;
+}
+
+.button_Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+button {
+  color: #fff;
+  background: #111111;
+  border-radius: 30px;
+  margin: 10px 30px;
+  height: 50px;
+  font-family: "Poppins";
+  font-size: 15px;
+  line-height: 27px;
+}
+.right_Container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 22%;
+  width: 75%;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+}
+
+.bioSection {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px;
+  gap: 20px;
+}
+.infoSection {
+  height: auto;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.content_Section {
+  display: flex;
+  gap: 30px;
+}
+
+.about_Tony p {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.about_Tony a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+imgSection img {
+  height: 300px;
+}
+
+table {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+th,
+td {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-collapse: collapse;
+  padding: 9px 15px;
+  text-align: left;
+}
+td {
+  padding: 3px 15px;
+  text-align: left;
+}
+
+td:last-child,
+th:last-child {
+  border-right: none;
+}
+
+.infoSection.Container .title {
+  padding: 30px 0px 0px 40px;
+}
+.table {
+  padding: 20px 20px;
+}
+
+@media screen and (max-width: 968px) {
+  .container {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .left_Container {
+    position: initial;
+    text-align: center;
+    width: auto;
+    padding-top: 56px;
+    height: auto;
+  }
+  .right_Container {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: auto;
+  }
+
+  .content_Section {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .imgSection img {
+    height: 390px;
+  }
+}
